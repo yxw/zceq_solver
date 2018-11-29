@@ -26,7 +26,8 @@ ZcEquihashSolver* CreateSolver(void) {
 
 void DestroySolver(ZcEquihashSolver* solver) {
   if (solver != nullptr)
-    delete (ZcEquihashSolverT*)(void*)solver;
+    delete solver;
+    //delete (Solver*)(void*)solver;
 }
 
 int FindSolutions(ZcEquihashSolver* solver, HeaderAndNonce* inputs,
