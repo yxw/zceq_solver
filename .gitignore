@@ -11,3 +11,5 @@ build-profiling/
 build-final/
 .DS_Store
 .eggs/
+CMakeFiles/
+CMakeCache.txt
