@@ -1,7 +1,9 @@
+*.pyo
+*.pyc
+.*.swp
 .idea
+.vscode/
 build*/
-*.so
-*.dll
 .sconsign.dblite
 .sconf_temp
 config.log
@@ -9,4 +11,3 @@ build-profiling/
 build-final/
 .DS_Store
 .eggs/
-.vscode/
